@@ -5,3 +5,7 @@ It create a .git directory. We may need to do it to include the directory into r
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is like the cache of files to be committed. It provide an intermediate place to hold file to be commited, while spare space for reconsidering
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+
+Becuase one can use "git diff --staged" command to compare file in most recent commit and that in staging area, one can check the file to be commited contain one logical change before commiting
