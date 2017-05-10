@@ -9,3 +9,15 @@ Staging area is like the cache of files to be committed. It provide an intermedi
 3) How can you use the staging area to make sure you have one commit per logical change?
 
 Becuase one can use "git diff --staged" command to compare file in most recent commit and that in staging area, one can check the file to be commited contain one logical change before commiting
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+One may want to deviate from predecided plan. In this situation, branches can divide the official plan from experiment, and allow one to jump from one plan to other. After the result is satisfying, one can even merge two branches together.
+
+5) How do diagrams help you visualize the branch structure?
+
+Pure texts are hard to visualize and understand, while diagram can easily show whose parents are who, and how many branches there are.
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do.
+
+Merging two branches combine the changes have been made into one commit compare to their common parent. As the result, the resulting commit have parents as merged branch, so the graph looks like it stems from multiple parents.
