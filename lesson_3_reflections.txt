@@ -9,3 +9,7 @@ Because I may not want every commit on the remote. By manually pulling, I can ke
 3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 When I want add others repositories in my GitHub, I use forks; When I want all components of a repository, I use clones; When I make change on my own local directory, I use branches.
+
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It make you up-to-date, and can work on it even if you're outline.
