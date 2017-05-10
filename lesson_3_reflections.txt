@@ -13,3 +13,7 @@ When I want add others repositories in my GitHub, I use forks; When I want all c
 4) What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It make you up-to-date, and can work on it even if you're outline.
+
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I may need to exchange file with others by cloud. It reduces the use of command line, but makes branch and others related operation difficult.
