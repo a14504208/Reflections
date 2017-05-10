@@ -21,3 +21,7 @@ Pure texts are hard to visualize and understand, while diagram can easily show w
 6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do.
 
 Merging two branches combine the changes have been made into one commit compare to their common parent. As the result, the resulting commit have parents as merged branch, so the graph looks like it stems from multiple parents.
+
+7) What are the pros and cons of Git's automatic merging v.s. always doing merges manually?
+
+While automatic merging is convenience when what need to be merged is apparent, sometimes it may make some decision that doesn't fullfill users intention. While manual merge can always do what users intend to, it may be tedius if the merge is apparent.
