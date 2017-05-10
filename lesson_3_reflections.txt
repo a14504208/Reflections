@@ -17,3 +17,7 @@ It make you up-to-date, and can work on it even if you're outline.
 5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 I may need to exchange file with others by cloud. It reduces the use of command line, but makes branch and others related operation difficult.
+
+6) When would you want to make changes in a seperate branch rather than directly in master? What benefits does each approach have.
+
+When I work on something experimental, I may make change in a seperate branch, to make the master offical and consented by anyone. If I want the master to have changes I made in seperate branches, I can pull request and be reviewed by others before merging. In this way, seperate branch take no risk in corrupt the master, while it may be complex in managing different branches.
